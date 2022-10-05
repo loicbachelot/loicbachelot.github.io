@@ -1,4 +1,9 @@
-Simple portfolio to present my projects
+Hello! I am Loïc Bachelot
+A data scientist passionate about earth science applications and this repo is my simple portfolio.
+
+Go to https://loicbachelot.github.io/ to learn about my and what I have done
+
+
 
 credits:
 
