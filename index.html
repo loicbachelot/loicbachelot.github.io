@@ -22,27 +22,37 @@
 			</nav>
 
 		<!-- Home -->
-			<article id="Intro" class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img class="circular" src="images/profile_pic.jpg" alt="Avatar" /></span>
-						</div>
-						<div class="col-8 col-7-large col-12-medium">
-							<header>
-								<h1>Hello! I am <strong>Loïc Bachelot</strong></h1>
-							</header>
-							<p>A data scientist passionate about earth science applications!</p>
-							<p>Masters in artificial intelligence and big data from the University of Cergy-Paris. I started my carrer at Air-France as a data scientist
-								 in the revenue management department. Then I worked for IFREMER, the french research institute for the ocean. I was part of the physical
-								  oceanography team where I had the chance to work on some european cloud projects as well as assist researchers on projects involving deep
-								   learning.
-								<br>To learn more about me, check out my resume! </p>
-							<a href="images/resume_2022.pdf" class="button small scrolly">My resume</a>
-						</div>
+		<article id="Intro" class="wrapper style1">
+			<div class="container">
+				<div class="row">
+					<div class="col-4 col-5-large col-12-medium">
+						<span class="image fit"><img class="circular" src="images/profile_pic.jpg" alt="Avatar" /></span>
+					</div>
+					<div class="col-8 col-7-large col-12-medium">
+						<header>
+							<h1>Hello! I am <strong>Loïc Bachelot</strong></h1>
+						</header>
+						<p>A data scientist passionate about open science and earth system data!</p>
+						<p class="no-underline-links">
+							I hold a Master’s degree in artificial intelligence and big data from the
+							<a href="https://www.cyu.fr" target="_blank"><strong>University of Cergy-Paris</strong></a>.
+							My journey began in the airline industry with
+							<a href="https://wwws.airfrance.us/" target="_blank"><strong>Air France-KLM</strong></a>,
+							and later shifted toward ocean and earth sciences.
+							At <a href="https://wwz.ifremer.fr/en" target="_blank"><strong>IFREMER</strong></a>,
+							I contributed to the <a href="https://www.blue-cloud.org" target="_blank">EU Blue-Cloud project</a>,
+							deploying deep learning models for ocean profile reconstruction and supporting marine bioacoustics research.
+							Currently, I work at the <a href="https://www.uoregon.edu/" target="_blank"><strong>University of Oregon</strong></a>
+							as a Data Scientist with the
+							<a href="https://cascadiaquakes.org" target="_blank"><strong>Cascadia Region Earthquake Hazards Center (CRESCENT)</strong></a>,
+							where I lead cloud-native data platform development while continuing research in geophysical machine learning.
+						</p>
+						<p>Check out my most recent work!</p>
+						<a href="images/resume_2025.pdf" class="button small scrolly">My resume</a>
 					</div>
 				</div>
-			</article>
+			</div>
+		</article>
 
 
 		<!-- Portfolio -->
@@ -51,6 +61,38 @@
 					<header>
 						<h2>Some of my projects!</h2>
 					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://doi.org/10.26443/seismica.v2i4.1419" class="image featured"><img class='project_img' src="images/gnss_gnn.png" alt="GNSS GNN Visualization" /></a>
+								<h3>GNSS Time Series Denoising</h3>
+								<p>First-author publication on applying Graph Neural Networks to denoise daily GNSS time series in the Cascadia region. This work bridges geodetic signal analysis and modern ML techniques, with an emphasis on open, reproducible science.</p>
+								<a href="https://doi.org/10.26443/seismica.v2i4.1419" class="fas fa-book"></a>
+								<a href="https://github.com/UO-Geophysics/daily_GNSS_denoising" class="icon brands fa-github"></a>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://www.youtube.com/watch?v=ttSgzCSj49A" class="image featured"><img class='project_img' src="images/podcast_thumbnail.jpg" alt="Podcast thumbnail" /></a>
+								<h3>Podcast: ML for Earth Sciences</h3>
+								<p>I was recently invited to discuss my <a href="https://doi.org/10.26443/seismica.v2i4.1419">GNSS denoising paper</a> and my broader approach to applying machine learning in earth sciences. We covered reproducibility, open science, and the future of geophysical ML.</p>
+								<a href="https://www.youtube.com/watch?v=ttSgzCSj49A" class="fas fa-microphone"></a>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<video class="project_img" autoplay muted loop playsinline>
+									<source src="images/crescent_cvm.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								</video>
+								<h3>CRESCENT Platforms</h3>
+								<p>As part of my work at the University of Oregon’s <strong>Cascadia Region Earthquake Hazards Center (CRESCENT)</strong>, we develop interactive open-source visualization platforms:
+									<a href="https://cvm.cascadiaquakes.org/">CVM</a> (velocity models) and <a href="https://cfm.cascadiaquakes.org/">CFM</a> (fault models), all built on AWS to support open-access, FAIR-aligned geoscience tools.</p>
+								<a href="https://cascadiaquakes.org/" class="fas fa-globe"></a>
+								<a href="https://github.com/cascadiaquakes" class="icon brands fa-github"></a>
+							</article>
+						</div>
+					</div>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
